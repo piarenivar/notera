@@ -154,7 +154,7 @@ a:hover {
 }
 
 .p-hero {
-    margin: 5% 0 6%;
+    margin: 2rem 0 2.5rem;
 }
 
 @media (max-width: 650px) {
@@ -466,6 +466,87 @@ a:hover {
 
 #discover {}
 
-#community {}
+#cta {}
 
-#footer {}
+@media (max-width:990px) {
+    #cta {
+        text-align: center;
+    }
+}
+
+.cta-img {
+    width: 24rem;
+    animation: ctaEnlarge 1.65s ease-in-out 0s infinite alternate none;
+}
+
+.cta-img:hover {
+    cursor: pointer;
+}
+
+@-webkit-keyframes ctaEnlarge {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width:990px) {
+    .cta-img {
+        margin-top: 5rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .cta-img {
+        margin-top: 3rem;
+        animation: none;
+    }
+}
+
+#footer {
+    margin-top: 4rem;
+}
+
+@media (max-width: 990px) {
+    .hide-md {
+        visibility: hidden;
+    }
+}
+
+.social-icon {
+    margin: 0 16px;
+    color:rgb(154, 148, 150, .5);
+    transition: .2s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #9a9496;
+    transform: scale(1.1);
+}
+
+.footer-footer {
+    margin-top: 2rem;
+}
+
+.footer-notera-img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.footer-notera-txt {
+    font-size: 2rem;
+}
+
+.copyright {
+    margin-top: 2rem;
+    color:rgb(154, 148, 150, .75);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.notera-footer {
+    color: rgb(247, 197, 72, .75);
+}
