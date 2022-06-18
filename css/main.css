@@ -66,7 +66,7 @@ a {
 }
 
 a:hover {
-    color: #f7c548;
+    color: #FCB836; 
 }
 
 /* .nav-link {
@@ -75,7 +75,7 @@ a:hover {
 } */
 
 .notera {
-    color: #f7c548;
+    color: #FCB836;
     letter-spacing: .1rem;
 }
 
@@ -125,7 +125,7 @@ a:hover {
 } */
 
 .nav-link:hover {
-    color: #f7c548;
+    color: #FCB836;
 }
 
 .notera-nav {
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .account-nav:hover {
-    border-color: #f7c548;
+    border-color: #FCB836;
     background-color: transparent;
 }
 
@@ -166,28 +166,28 @@ a:hover {
 
 .btn-hero {
     /* background-color: transparent;
-    background-image: linear-gradient(to right, #f7c548 0%, #fbcf3b 50%, #fbcf3b 100%); */
-    color: #f7c548;
+    background-image: linear-gradient(to right, #FCB836 0%, #fbcf3b 50%, #fbcf3b 100%); */
+    color: #FCB836;
     font-size: 1.3rem;
     letter-spacing: 1.15;
     font-weight: 30;
     padding: .85rem 2.5rem;
     background-color: transparent;
     background-size: 0% 100%;
-    background-image: linear-gradient(#f7c548, #f7c548);
+    background-image: linear-gradient(#FCB836, #FCB836);
     background-repeat: no-repeat;
     transition: all 0.3s linear;
-    border: 1px solid #f7c548;
+    border: 1px solid #FCB836;
     border-radius: 100rem;
     /* transition: transform .3s ease-in-out; */
 }
 
 .btn-hero:hover {
-    /* background-color: #f7c548; */
-    /* color: #f7c548; */
+    /* background-color: #FCB836; */
+    /* color: #FCB836; */
     /* font-weight: 400; */
-    /* border: 1.5px solid #f7c548; */
-    /* box-shadow: 0 0 8px #f7c548; */
+    /* border: 1.5px solid #FCB836; */
+    /* box-shadow: 0 0 8px #FCB836; */
     /* transform: scale(1.1); */
     background-size: 100% 100%;
     color: #221e1c;
@@ -230,7 +230,7 @@ a:hover {
 }
 
 .explore-notera:hover {
-    color: #f7c548;
+    color: #FCB836;
     transform: scale(1.1);
 }
 
@@ -245,7 +245,7 @@ a:hover {
 }
 
 .row-features {
-    padding: 6% 0;
+    padding: 3rem 0;
 }
 
 @media (max-width: 990px) {
@@ -255,7 +255,7 @@ a:hover {
 }
 
 .h2-features {
-    margin: 3% 0;
+    margin: 1rem 0 3rem;
     letter-spacing: 1.5;
 }
 
@@ -266,7 +266,7 @@ a:hover {
 }
 
 .img-features {
-    width: 72%;
+    width: 80%;
     transition: transform .3s ease-in-out;
 }
 
@@ -488,7 +488,7 @@ a:hover {
         transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.15);
     }
 }
 
@@ -523,7 +523,7 @@ a:hover {
 }
 
 .social-icon:hover {
-    color: #9a9496;
+    color: #FCB836;
     transform: scale(1.1);
 }
 
